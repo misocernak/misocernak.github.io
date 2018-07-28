@@ -1,0 +1,257 @@
+body {
+    margin: 0 auto 0 auto;
+    width: 1000px;
+    height: 100%;
+    background-image: url("../pictures/pozadina7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#headimg {
+    width: 1000px;
+    height: 195px;
+}
+#headimg1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#headimg2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#headHeading {
+    font-family: "Courier New", Courier, monospace;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 200px;
+    font-size: 40px;
+    color: #FFF;
+}
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 195px;
+    z-index: 1;
+}
+.navbar {
+    height:48px;
+    background-color: #840909;
+    font-family: Georgia, serif;
+    border-bottom: 2px solid #840909;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 195px;
+    z-index: 1;
+
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #D2AC67;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: ;
+    font-family: Georgia, serif;
+
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #D2AC67;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color:#FFF;
+    font-family: "Trebuchet MS", Helvetica, sans-seriff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #840909;
+    width: 220px;
+    max-width: 550px;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.dropdown-content a {
+    background-color: #840909;
+    float: none;
+    color: #D2AC67;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #E1002C;
+}
+
+.dropdown-content a:hover {
+    color:#FFF;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.sidebar {
+    width: 200px;
+    top: 15em;
+    float: right;
+    top: 0;
+    background: #840909; 
+    top: 245px;
+    border-top: 1px solid #E1002C;
+}
+.sidebar h3 {
+    color: #D2AC67;
+    filter: grayscale(70%);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar a {
+    display: block;
+    text-align: center;
+    color: #D2AC67;
+    text-decoration: none;
+    padding: 15px 0;
+    font-family: "Courier New", Courier, monospace;
+    filter: grayscale(100%);
+}
+.sidebar_icon {
+    width: 70px;
+    height: 70px;
+}
+.sidebar a:hover {
+    color: #FFF;
+    filter: grayscale(0);
+    font-family: "Trebuchet MS", Helvetica, sans-seriff;
+}
+.main_heading {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 45px;
+    color: #A5010B;
+    font-family: "Courier New", Courier, monospace;
+}
+.title1 {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container1 {
+    background: rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    position: relative;
+}   
+p {
+    font-size: 16px;
+    padding: 5px 45px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 500;
+}
+q {
+    font-style: oblique;
+}
+.margin-paragraph {
+   margin-bottom: 5em;
+
+}
+.img1 {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    width: 15em;
+    height: 10em;
+    float: right;
+    padding-right: 15px;
+}
+.img2 {
+    width: 20em;
+    height: 16em;
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.img3{
+    width: 21em;
+    height: 16em;
+    float: left;
+    padding: 3em 2em 2em 0;
+}
+.img1:hover, .img2:hover, .img3:hover {
+    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
+}
+.title2 {
+    margin: 50px 0 40px 0;
+    text-align: center;
+    padding-bottom: 60px;
+}
+footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height: 75px;
+    width: 1000px;
+    background-color: #A5010B;
+    z-index: 1;
+    text-align: center;
+}
+blockquote{
+ font-family: "Courier New", Courier, monospace;
+ color: #FFF;
+ font-size: 12px;
+ text-decoration: none;
+ padding: auto 0;
+}
+blockquote a {
+ color: #FFF;
+ font-size: 12px;
+ text-decoration: none;
+}
+.football {
+    float: right;
+    height: 45px;
+}
+.basketball {
+    float: left;
+    height: 45px;
+}
+.tickets {
+    text-align: center; 
+    margin-top: auto;
+}
+.tickets blockquote {
+    text-align: center;
+}
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+.link {
+    color: #FF9900;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding: 0 3px;
+}
+.link:hover {
+    background-color: #FFF;
+    color: #000;
+}
