@@ -28,9 +28,9 @@ function addTask() {
 
 function removeAllTasks() {
     const allTasks = document.querySelector("#tasksUL");
-    localStorage.clear();
     let listItems = allTasks.getElementsByTagName(`li`);
     if (confirm(`Are you sure that you want to delete all your tasks?`)) {
+        localStorage.clear();
         while (listItems.length > 0) {
             allTasks.removeChild(listItems[0]);
         }
