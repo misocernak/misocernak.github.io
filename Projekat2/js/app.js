@@ -1,13 +1,13 @@
 const taskBtn = document.querySelector("#btn");
 const clearBtn = document.querySelector("#btn2");
-const srcInp = document.querySelector("#searchTab");
+const srchInp = document.querySelector("#searchTab");
 const allTasks = document.querySelector("#tasksUL");
 
 document.addEventListener('DOMContentLoaded', getTasks);
 taskBtn.addEventListener("click", addTask);
 clearBtn.addEventListener("click", removeAllTasks);
 allTasks.addEventListener("click", removeTask);
-srcInp.addEventListener("keyup", filterTasks);
+srchInp.addEventListener("keyup", filterTasks);
 
 function getTasks() {
     const allTasks = document.querySelector("#tasksUL");
