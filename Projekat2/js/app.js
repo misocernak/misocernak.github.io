@@ -16,7 +16,7 @@ function getTasks() {
 
 function addTask() {
     const taskInp = document.querySelector("#inp1");
-    if (taskInp.value == null) {
+    if (taskInp.value == ``) {
         alert(`You have to write some task!`);
     } else {
         const allTasks = document.querySelector("#tasksUL");
