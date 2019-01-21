@@ -1,0 +1,33 @@
+
+table {
+    width: 40em;
+    border-collapse: collapse;
+    margin: auto;
+    border-width: 10px;
+}
+table {
+    border: 3px solid black;
+  }
+.place {
+    width: 30em;
+}
+td {
+    border: 1px solid black;
+    height: 20px;
+    width: 30px;
+}
+p {
+    margin: auto;
+}
+.colspaned {
+    width: 120px;
+}
+td, .colspaned {
+    text-align: center;
+}
+.teams {
+    display: inline;
+}
+.lastRow {
+    border-bottom: 3px solid black;
+}
