@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+    height: 100vh;
+}
+
+body{
+    min-height: 100%;
+    min-width: auto;
+    background-color: #FFF;
+}
+
+/*Header and first row*/
+
+#brand{
+    vertical-align: middle;
+}
+
+#row1 {
+    background-color: #272C30;
+}
+
+#nav{
+    min-height: 10vh;
+}
+
+#prvi{
+    min-height: 10vh;
+}
+
+#row1 {
+    min-height: 10vh;
+}
+
+/*Second row content and users/teams profiles*/
+
+#drugi {
+    min-height: 90vh;
+}
+
+#row2{
+    min-height: 90vh;
+}
+
+#side {
+    background-color: #F8F9FA;
+    padding-left: 1rem;
+    border-right: 1px solid #DFE0E1;
+}
+
+
+#logOutBtn {
+    color: #FFF;
+    margin: 0 0 0 auto;
+}
+
+.sideNav {
+    width: 100%;
+    margin: 3em 0 0 0;
+}
+
+.menuLink{
+    display: block;
+    color: #333333;
+    width: 100%;
+    padding: 1rem 0.5rem 1.5rem 0.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menuLink:hover {
+    color: #333333;
+    text-decoration: none;
+    background-color: #EEEEEE;
+}
+.menuLink:hover>i{
+    color: #333333;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #333333;
+    background-color: #EEEEEE;
+}
+
+.icon {
+    margin-right: 1rem;
+    color: #AAAAAA;
+}
+
+.table {
+    width: 100%;
+}
+
+td {
+    width: 20rem;
+}
+
+.fa-toggle-on {
+    color: green;
+}
+
+.fa-toggle-off {
+    color: #DB3444;
+}
+
+.userTable {
+    margin: auto;
+    width: 90%;
+}
+
+.tableLink{
+    color: #000;
+}
+
+.button {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.btn {
+    margin: 1rem auto;
+    width: 15rem;
+}
+
+#btnAlign{
+    width:100%;
+    text-align: center;
+}
+
+#delegateProfile, #medicProfile {
+    display: none;
+}
+
+#userMenu {
+    display: none;
+}
+/*Forms*/
+
+form{
+    margin-top:65px;
+}
+
+.text-success{
+    text-align: center;
+}
+
+/*roundCreation style*/
+
+.leagueBtn {
+    width: 11rem;
+}
+
+#createRoundBtn {
+    margin-top: 2rem;
+}
+
+#contentContainer {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#roundSelectMenu, #leagueSelectMenu {
+    width: 50%;
+    margin: 1rem auto;
+}

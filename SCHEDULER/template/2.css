@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html {
+    height: 100vh;
+}
+#brand{
+    vertical-align: middle;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #FFF;
+}
+
+#row1 {
+    background-color: #272C30;
+}
+#nav{
+    min-height: 10vh;
+}
+#prvi{
+    min-height: 10vh;
+}
+
+#row1 {
+    min-height: 10vh;
+}
+
+#drugi {
+    min-height: 90vh;
+}
+
+#row2{
+    min-height: 90vh;
+}
+
+#side {
+    background-color: #F8F9FA;
+    padding: 0;
+}
+
+a {
+    color: #FFF;
+}
+
+#logOutBtn {
+    color: #FFF;
+    margin: 0 0 0 auto;
+}
+
+.sideNav {
+    width: 100%;
+    margin: 3em 0 0 0;
+}
+
+.menuLink{  
+    display: block;
+    color: #333333;
+    width: 100%;
+    margin: 0.5em 0 1em 0;
+    padding: 0;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menuLink:hover {
+    color: #333333;
+    text-decoration: none;
+    background-color: #EEEEEE;
+}
+.menuLink:hover>i{
+    color: #333333;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #333333 !important;
+    background-color: #EEEEEE !important;
+}
+
+.icon {
+    margin-right: 1rem;
+    color: #AAAAAA;
+}
