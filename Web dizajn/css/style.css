@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+.textOnImage1 {
+  position: absolute;
+  font-size: 90px;
+  font-family: 'Inconsolata', monospace;
+  color: #FFF;
+  animation-name: slidedown;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidedown {
+  from {
+    top: 0%;
+    left: 0%;
+  }
+  to {
+    top: 30%;
+    left: 5%;
+  }
+}
+
+.textOnImage2 {
+  position: absolute;
+  font-size: 40px;
+  font-family: 'Inconsolata', monospace;
+  color: #FFF;
+  animation-name: slidedown2;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidedown2 {
+  from {
+    top: 0%;
+    right: 0%;
+  }
+  to {
+    top: 45%;
+    right: 50%;
+  }
+}
+
+.textOnImage3 {
+  position: absolute;
+  font-size: 70px;
+  font-family: 'Inconsolata', monospace;
+  color: #FFF;
+  animation-name: slideright;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideright {
+  from {
+    left: 0%;
+    top: 100%;
+  }
+  to {
+    left: 10%;
+    top: 55%;
+  }
+}
+
+ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+#home ul {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(163, 163, 163, 0.8);
+  z-index: 1;
+}
+
+ul li {
+  display: inline-flex;
+  padding: 1em;
+}
+
+ul li:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+  padding: 1em 0 5em 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#aboutCoffee, #contact {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 5em;
+}
+
+.fact {
+  display: inline-flex;
+  padding-bottom: 4em;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fact img {
+  width: 250px;
+  height: 170px;
+}
+
+.imgRight {
+  margin-left: 5em;
+  right: 0;
+}
+
+.imgLeft {
+  margin-right: 5em;
+  left: 0;
+}
+
+#pricelistBackground {
+  width: 100%;
+  height: 100vh;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+#pricelist {
+  position: relative;
+  text-align: center;
+  color: white;
+  z-index: -1;
+  text-align: center;
+}
+
+#pricelist .heading {
+  position: absolute;
+  top: 10%;
+  left: 48%;
+  color: #FFF;
+}
+
+.coffee {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  color: #000000;
+  width: 30em;
+  height: 30em;
+}
+
+.cakes {
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  color: #000000;
+  width: 30em;
+  height: 30em;
+}
+
+.odd {
+  background-color: rgb(163, 163, 163, 0.5);
+}
+
+.even {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+td {
+  font-weight: bold;
+}
+
+label, input {
+  display: block;
+}
+
+#fullName, #e-mail {
+  width: 40%;
+}
+
+input[type=text], input[type=email],  textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#gallery {
+  margin-top: 4em;
+  z-index: -1;
+}
+
+#gallery h1 {
+  text-align: center;
+  padding: 4em 0 2em 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+#gallery .image {
+  width: 25%;
+  height: auto;
+  float: left;
+  display: block;
+  filter: grayscale(1);
+  transition: all .8s ease-in-out;
+  z-index: -1;
+}
+
+#gallery .image:hover {
+  filter: none;
+}
+
+footer {
+  width: 100%;
+  margin-top: 3em;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: rgb(163, 163, 163, 0.5);
+}
+
+i {
+  padding-right: 0.5em;
+  color: orange;
+  width: 14px;
+  height: 14px;
+}
+
+.authorHeading {
+  padding: 4em 0 4em 0;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.imgHolder, .authorDescription {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.authorImg {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.authorDescription p {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 2em;
+}

@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #1d1d1d;
+}
+
+a {
+    text-decoration: none !important;
+    color: #FFF !important;
+}
+
+.navbar {
+    background-color: #1d1d1d;
+    color: #919191;
+    border-bottom: 1px solid #2f2f2f;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 8;
+}
+
+.navbar-toggler {
+    color: #919191;
+}
+
+.nav-link {
+    color: #919191;
+}
+
+.navbar-toggler-icon i {
+    width: 30px;
+    height: 30px;
+}
+
+.form-inline, .header-slogan {
+    display: none;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #FFF;
+}
+
+#background-img {
+    background-image: url(../images/movies/abominable-2019/background\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    position: absolute;
+    /* z-index: 1; */
+    left: 0;
+    right: 0;
+    top: 60px;
+}
+
+#background-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* z-index: 6; */
+    background: linear-gradient(to bottom, rgba(29, 29, 29, 0.65) 0, rgba(29, 29, 29, 1) 100%);
+    top: 60px;
+    height: 580px;
+}
+
+.mobile-hidden {
+    display: none;
+}
+
+.content-container {
+    margin-top: 5rem;
+}
+
+.home-content {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.tittle {
+    text-align: center;
+}
+
+#browse-downloads h2 a {
+    display: none;
+}
+
+#popular-downloads h2, #browse-downloads h2 {
+    font-size: 1.15em;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    color: #FFF;
+    z-index: 3;
+}
+
+.browse-movie-tittle {
+    color: #FFF;
+}
+
+.browse-movie-year {
+    color: gray;
+}
+
+.browse-movie-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.filter-browse-movie-wrap img {
+    width: 100%;
+    height: auto;
+}
+
+.content-dark {
+    background: #171717;
+}
+
+.popular-movies {
+    margin-top: 10rem;
+}
+
+figcaption {
+    display: none;
+}
+
+#browse-downloads {
+    margin-top: 5rem;
+}
+
+/*Browse movies*/
+
+.form-holder {
+    text-align: center;
+}
+
+#keyword-search-field:focus {
+    outline: none;
+}
+
+#main-search {
+    padding: 100px 0;
+    width: 100%;
+}
+
+#main-search-fields input {
+    border: 0;
+    color: #a2a2a2;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-image: none;
+    padding: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    background: #282828;
+}
+
+#main-search-fields .selects-container {
+    margin-top: 15px;
+}
+
+.button-green-download2-big {
+    background: #6ac045;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    display: block;
+    font-weight: 700;
+    color: #fff;
+    top: 35px;
+    font-size: 16px;
+    position: relative;
+    width: 130px;
+    padding: 7px 0;
+    margin: 0 auto;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+    text-align: center;
+}
+
+.selects-container select {
+    margin: 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    width: 130px;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    height: 40px;
+    color: #a2a2a2;
+    font-size: .9em;
+    font-weight: 400;
+    overflow: hidden;
+    background: url(../images/select-arrows.svg) no-repeat 115px 12px #282828;
+    border: 0;
+}
+
+#main-search-btn {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 41px;
+}
+
+#main-search-btn input {
+    width: 100px;
+    position: static;
+    border: 0;
+}
+
+.login-options-chooser {
+    color: #FFF;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    height: 5rem;
+}
+
+.login-options-chooser div {
+    margin: auto;
+    height: 100%;
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+.form-holder {
+    color: #FFF;
+    align-items: center;
+}
+
+.form-holder form {
+    width: 100%;
+    padding: 5rem 0 4rem 0;
+}
+
+.form-holder form div {
+    margin: auto;
+}
+
+.active {
+    background-color: #2f2f2f;
+}
+
+.register-form {
+    display: none;
+}
+
+.login-tab:hover, .register-tab:hover {
+    cursor: pointer;
+}
+
+.forms-holder {
+    margin-top: 7rem;
+}
+
+select {
+    width: 100%;
+}
+
+/*Footer CSS*/
+
+footer {
+    background: #151515;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #2f2f2f;
+    width: 100%;
+    bottom: 0;
+    margin-top: 5em;
+}
+
+footer ul {
+    padding-top: 10px;
+    display: inline-flex;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+footer ul a:hover {
+    color: #a3a3a3;
+    transition: all 0.3s ease 0s;
+}
+
+footer .toTop {
+    display: none;
+}
+
+/*About author page*/
+
+.authorHeading {
+    padding: 3em 0 2em 0;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.imgHolder, .authorDescription {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.authorImg {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.authorDescription p {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.alert, .emptyEmailAlert, .passwordAlert, .weak, .confirmationAlert, .usernameAlert {
+    color: red;
+    display: none;
+}
+
+.confirmed, .strong, .confirmationPassword, .usernameConfirmation {
+    color: #6ac045;
+    display: none;
+}
+
+.medium {
+    color: orange;
+    display: none;
+}
+
+.form-group small span {
+    color: #6ac045;
+}
+
+.fa-rss-square {
+    color: orange;
+}
+
+.fa-arrow-circle-up {
+    color: #6ac045;
+}
+
+@media only screen and (min-width: 992px) {
+    .form-inline, .header-slogan, .mobile-hidden {
+        display: flex;
+    }
+    .mobile-hidden h1 {
+        color: #FFF;
+        z-index: 3;
+        font-size: 2.75em;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+    }
+    .mobile-hidden p {
+        font-size: .95em;
+        color: #ccc;
+        width: 650px;
+        margin: 0 auto;
+        line-height: 21px;
+        margin-bottom: 30px;
+        z-index: 3;
+    }
+    .content-container {
+        justify-content: space-around;
+    }
+    .navbar-nav {
+        margin-left: 15rem;
+    }
+    .navbar {
+        height: 60px;
+    }
+    .form-inline {
+        margin-left: 15rem;
+    }
+    #quick-search-input {
+        width: 250px;
+        height: 35px;
+        font-size: 0.85em;
+        font-weight: 700;
+        color: #919191;
+        border: 2px solid #333;
+        border-radius: 20px;
+        padding: 4px 30px;
+        background: url(../images/icon-search.svg) no-repeat 9px 8px;
+    }
+    .form-control:focus {
+        box-shadow: none;
+    }
+    #browse-downloads h2 a {
+        display: flex;
+    }
+    .browse-tittle {
+        display: inline;
+        justify-content: space-between;
+    }
+    .browse-tittle a {
+        float: right;
+    }
+    .browse-movie-wrap {
+        margin-bottom: 15px;
+    }
+    .filter-browse-movie-wrap {
+        margin-bottom: 15px;
+    }
+    .browse-movie-link {
+        display: inline-block;
+        max-width: 220px;
+        border: 5px solid #fff;
+        transition: all 0.3s ease 0s;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        font-size: 24px;
+    }
+    .browse-movie-link:hover {
+        border-color: #6ac045;
+    }
+    .browse-movie-bottom, .browse-movie-year {
+        max-width: 210px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .img-responsive {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        transition: all 0.4s ease 0s;
+    }
+    figure {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        transition: all 0.4s ease 0s;
+    }
+    .home-content figcaption {
+        padding-top: 40px;
+    }
+    figcaption {
+        display: block;
+        color: #fff;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        width: 100%;
+        transition: all 0.4s ease 0s;
+        padding-top: 20px;
+        backdrop-filter: brightness(40%);
+    }
+    figcaption:hover {
+        opacity: 2;
+    }
+    figure figcaption h4 {
+        font-size: 25px;
+        position: relative;
+        width: 100%;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+    }
+    .home-content figure figcaption .button-green-download2-big {
+        margin-top: 40px;
+    }
+    .browse-movie-tittle a:hover {
+        color: #919191 !important;
+    }
+    .ac-results {
+        display: block;
+        overflow: hidden;
+        z-index: 9;
+        margin: 0;
+        padding: 0;
+        top: 59px !important;
+        width: 250px!important;
+        text-align: left;
+        position: fixed!important;
+    }
+    .ac-results ul {
+        list-style-position: outside;
+        list-style: none;
+        background: #1d1d1d;
+        margin: 0;
+    }
+    .ac-results li:first-child {
+        border: 0;
+    }
+    .ac-results li {
+        cursor: pointer;
+        display: block;
+        overflow: auto;
+        margin: 0;
+        padding: 0;
+        border-top: 1px solid #2f2f2f;
+        font-size: 14px;
+    }
+    .ac-results li a {
+        display: block;
+        overflow: auto;
+        padding: 10px;
+        color: #fff;
+        font-weight: 700;
+    }
+    .ac-results li a img {
+        width: 43px;
+        height: auto;
+        height: 63px;
+        float: left;
+        margin-right: 15px;
+    }
+    .ac-results li a p {
+        font-size: 12px;
+        margin-top: 8px;
+        color: #919191;
+    }
+    /*Browse movies page CSS starts here*/
+    .form-holder {
+        text-align: center;
+    }
+    #keyword-search-field:focus {
+        outline: none;
+    }
+    #main-search {
+        padding: 100px 0;
+        width: 100%;
+    }
+    #main-search-fields {
+        width: 580px;
+        display: inline-block;
+    }
+    #main-search-fields .term {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 1.35em;
+        color: #5a5a5a;
+    }
+    #main-search-fields input {
+        border: 0;
+        color: #a2a2a2;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        background-image: none;
+        padding: 10px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 40px;
+        background: #282828;
+    }
+    #main-search-fields .selects-container {
+        width: 130px;
+        margin-right: 20px;
+        float: left;
+    }
+    #main-search-fields .selects-container-last, #info-page .selects-container-last {
+        margin-right: 0!important;
+    }
+    #main-search-fields .selects-container {
+        margin-top: 15px;
+    }
+    .selects-container p, #info-page .selects-container p {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: .9em;
+        color: #5a5a5a;
+        float: left;
+    }
+    .selects-container select {
+        margin: 0;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        width: 130px;
+        padding-left: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-appearance: none;
+        box-sizing: border-box;
+        height: 40px;
+        color: #a2a2a2;
+        font-size: .9em;
+        font-weight: 400;
+        overflow: hidden;
+        background: url(../images/select-arrows.svg) no-repeat 115px 12px #282828;
+        border: 0;
+    }
+    #main-search-btn {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+        margin-top: 41px;
+    }
+    #main-search-btn input {
+        width: 100px;
+        position: static;
+        border: 0;
+    }
+    footer div {
+        width: 100%;
+    }
+    footer .toTop {
+        display: block;
+    }
+    /*Login-register page css starts here*/
+}
+
+@media only screen and (min-width: 1650px) {
+    .navbar-nav {
+        margin-left: 25rem;
+    }
+    .form-inline {
+        margin-left: 20rem;
+    }
+}

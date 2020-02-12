@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/apple-touch-icon-76x76.webp">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4c293ea07d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Search and Browse YIFY Movies Torrent Downloads - YTS</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img class="logo" src="images/logo-YTS.svg" alt="yts.lt logo"></a>
+        <span class="header-slogan">HD movies at the smallest file size.</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            id="toggleButton">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Quick search" aria-label="Search"
+                    id="quick-search-input">
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="browse-movies.html"><i class="fas fa-search"></i> Browse movies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login-register.html" id="login-link"><i class="fas fa-sign-in-alt"></i>
+                        Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="home-content">
+        <div class="ac-results hidden-sm hidden-xs" id="search-results-holder">
+            <ul id="search-results">
+
+            </ul>
+        </div>
+        <div class="row">
+            <div id="main-search" class="content-dark hidden-sm hidden-xs">
+                <div class="container form-holder">
+                    <div class="row">
+                        <form action="" id="movieSearchForm">
+                            <div id="main-search-fields">
+                                <p class="pull-left term">Search term:</p>
+                                <input type="search" name="keyword" id="keyword-search-field">
+                                <div class="row">
+                                    <div class="selects-container">
+                                        <p>Quality:</p>
+                                        <select name="quality" id="moviesQuality">
+                                            <option value="All">All</option>
+                                            <option value="720p">720p</option>
+                                            <option value="1080p">1080p</option>
+                                            <option value="3D">3D</option>
+                                        </select>
+                                    </div>
+                                    <div class="selects-container">
+                                        <p>Genre:</p>
+                                        <select name="genre" id="moviesGenre">
+                                            <option value="all">All</option>
+                                            <option value="Action">Action</option>
+                                            <option value="Adventure">Adventure</option>
+                                            <option value="Animation">Animation</option>
+                                            <option value="Biography">Biography</option>
+                                            <option value="Comedy">Comedy</option>
+                                            <option value="Crime">Crime</option>
+                                            <option value="Cocumentary">Documentary</option>
+                                            <option value="Drama">Drama</option>
+                                            <option value="Family">Family</option>
+                                            <option value="Fantasy">Fantasy</option>
+                                            <option value="Film-noir">Film-noir</option>
+                                            <option value="Game show">Game show</option>
+                                            <option value="History">History</option>
+                                            <option value="Horror">Horror</option>
+                                            <option value="Music">Music</option>
+                                            <option value="Musical">Musical</option>
+                                            <option value="Mistery">Mistery</option>
+                                            <option value="News">News</option>
+                                            <option value="Reality-tv">Reality-tv</option>
+                                            <option value="Romance">Romance</option>
+                                            <option value="Sci-fi">Sci-fi</option>
+                                            <option value="Sport">Sport</option>
+                                            <option value="Talk-show">Talk-show</option>
+                                            <option value="Thriller">Thriller</option>
+                                            <option value="War">War</option>
+                                            <option value="Western">Western</option>
+                                        </select>
+                                    </div>
+                                    <div class="selects-container">
+                                        <p>Rating:</p>
+                                        <select name="rating" id="moviesRating">
+                                            <option value="0">All</option>
+                                            <option value="9">9+</option>
+                                            <option value="8">8+</option>
+                                            <option value="7">7+</option>
+                                            <option value="6">6+</option>
+                                            <option value="5">5+</option>
+                                            <option value="4">4+</option>
+                                            <option value="3">3+</option>
+                                            <option value="2">2+</option>
+                                            <option value="1">1+</option>
+                                        </select>
+                                    </div>
+                                    <div class="selects-container selects-container-last">
+                                        <p>Order by:</p>
+                                        <select name="order-by" id="moviesYear">
+                                            <option value="latest">Latest</option>
+                                            <option value="oldest">Oldest</option>
+                                            <option value="seeds">Seeds</option>
+                                            <option value="peers">Peers</option>
+                                            <option value="year">Year</option>
+                                            <option value="rating">Rating</option>
+                                            <option value="likes">Likes</option>
+                                            <option value="aplhabetical">Aplhabetical</option>
+                                            <option value="downloads">Downloads</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="main-search-btn">
+                                <input type="button" class="button-green-download2-big" value="Search"
+                                    onclick="filter()">
+                            </div>
+                        </form>
+                    </div>
+
+                    <small>*Note that only genre and rating searches work, for movies from home page</small>
+                </div>
+            </div>
+            <div class="container home-content">
+                <div class="home-movies">
+                    <p id="holderP"></p>
+                    <div class="row movie-holder">
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                    </div>
+                    <div class="row movie-holder">
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                        <div class="filter-browse-movie-wrap col-6 col-md-6 col-lg-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-20">
+                    <ul class="text-center">
+                        <a href="about-author.html">
+                            <li>About author</li>
+                        </a>
+                        <a href="#">
+                            <li>Documentation</li>
+                        </a>
+                        <a href="#">
+                            <li>Sitemap</li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fas fa-rss-square"></i> RSS</li>
+                        </a>
+                        <a href="#" class="toTop">
+                            <li><i class="fas fa-arrow-circle-up"></i> Back to top</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/jquery.js"></script>
+</body>
+
+</html>
