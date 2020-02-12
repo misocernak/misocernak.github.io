@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Coffee shop</title>
+		<link><![CDATA[https://misocernak.github.io]]></link>
+		<description>Belgrade coffee shop</description>
+		<language>en</language>
+		<pubDate>Wed, 12 Feb 2020 16:47:16 +0200</pubDate>
+
+		<item>
+			<title>About author</title>
+			<link>https://misocernak.github.io/WebDizajn/about-author.html</link>
+			<category>Site News</category>
+			<pubDate>Wed, 12 Feb 2020 14:42:55 GMT</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -48,7 +48,6 @@ a {
     background-size: cover;
     height: 580px;
     position: absolute;
-    /* z-index: 1; */
     left: 0;
     right: 0;
     top: 60px;
@@ -59,7 +58,6 @@ a {
     left: 0;
     right: 0;
     width: 100%;
-    /* z-index: 6; */
     background: linear-gradient(to bottom, rgba(29, 29, 29, 0.65) 0, rgba(29, 29, 29, 1) 100%);
     top: 60px;
     height: 580px;
@@ -312,10 +310,10 @@ footer .toTop {
     padding: 3em 0 2em 0;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+    color: #FFF;
 }
 
 .imgHolder, .authorDescription {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -331,6 +329,16 @@ footer .toTop {
     width: 50%;
     margin: 0 auto;
     padding: 2em;
+    color: #FFF;
+}
+
+#home ul {
+    list-style: none;
+    margin: 1rem;
+}
+
+#home ul li:hover {
+    cursor: pointer;
 }
 
 .alert, .emptyEmailAlert, .passwordAlert, .weak, .confirmationAlert, .usernameAlert {
@@ -359,6 +367,8 @@ footer .toTop {
 .fa-arrow-circle-up {
     color: #6ac045;
 }
+
+
 
 @media only screen and (min-width: 992px) {
     .form-inline, .header-slogan, .mobile-hidden {
@@ -629,7 +639,6 @@ footer .toTop {
     footer .toTop {
         display: block;
     }
-    /*Login-register page css starts here*/
 }
 
 @media only screen and (min-width: 1650px) {
